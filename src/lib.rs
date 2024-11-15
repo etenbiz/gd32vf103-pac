@@ -532,7 +532,7 @@ pub struct DMA1 {
 unsafe impl Send for DMA1 {}
 impl DMA1 {
     #[doc = r"Pointer to the register block"]
-    pub const PTR: *const dma1::RegisterBlock = 0x4002_0000 as *const _;
+    pub const PTR: *const dma1::RegisterBlock = 0x4002_0400 as *const _;
     #[doc = r"Return the pointer to the register block"]
     #[inline(always)]
     pub const fn ptr() -> *const dma1::RegisterBlock {

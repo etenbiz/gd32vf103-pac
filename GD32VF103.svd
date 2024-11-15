@@ -18091,13 +18091,12 @@
       <name>DMA1</name>
       <description>Direct memory access controller</description>
        <groupName>DMA</groupName>
-      <baseAddress>0x40020000</baseAddress>
+      <baseAddress>0x40020400</baseAddress>
       <addressBlock>
         <offset>0x0</offset>
         <size>0x400</size>
         <usage>registers</usage>
       </addressBlock>
-      <baseAddress>0x40020400</baseAddress>
       <interrupt>
         <name>DMA1_Channel0</name>
         <value>75</value>
